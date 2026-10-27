@@ -1,0 +1,721 @@
+date,client_id,product_category,unit_price,units_sold,total_revenue
+2023-01-01,CUST-101 (Apex Builders),Modular Switches,458.11,168,76962.48
+2023-01-01,CUST-101 (Apex Builders),Home Automation,8383.05,31,259874.55
+2023-01-01,CUST-101 (Apex Builders),Circuit Protection,1183.49,101,119532.49
+2023-01-01,CUST-102 (Metro Electricals),Modular Switches,458.46,135,61892.1
+2023-01-01,CUST-102 (Metro Electricals),Home Automation,8613.03,18,155034.54
+2023-01-01,CUST-102 (Metro Electricals),Circuit Protection,1184.8,59,69903.2
+2023-01-01,CUST-103 (Luxe Interiors),Modular Switches,450.45,109,49099.05
+2023-01-01,CUST-103 (Luxe Interiors),Home Automation,8538.03,22,187836.66
+2023-01-01,CUST-103 (Luxe Interiors),Circuit Protection,1182.7,67,79240.9
+2023-01-01,CUST-104 (Urban Infra Corp),Modular Switches,455.13,126,57346.38
+2023-01-01,CUST-104 (Urban Infra Corp),Home Automation,8397.89,37,310721.93
+2023-01-01,CUST-104 (Urban Infra Corp),Circuit Protection,1178.23,90,106040.7
+2023-01-01,CUST-105 (Nova Distributors),Modular Switches,444.07,158,70163.06
+2023-01-01,CUST-105 (Nova Distributors),Home Automation,8562.64,27,231191.28
+2023-01-01,CUST-105 (Nova Distributors),Circuit Protection,1197.13,92,110135.96
+2023-02-01,CUST-101 (Apex Builders),Modular Switches,457.37,103,47109.11
+2023-02-01,CUST-101 (Apex Builders),Home Automation,8417.99,16,134687.84
+2023-02-01,CUST-101 (Apex Builders),Circuit Protection,1200.96,76,91272.96
+2023-02-01,CUST-102 (Metro Electricals),Modular Switches,444.33,187,83089.71
+2023-02-01,CUST-102 (Metro Electricals),Home Automation,8360.09,28,234082.52
+2023-02-01,CUST-102 (Metro Electricals),Circuit Protection,1185.41,88,104316.08
+2023-02-01,CUST-103 (Luxe Interiors),Modular Switches,445.88,147,65544.36
+2023-02-01,CUST-103 (Luxe Interiors),Home Automation,8611.77,20,172235.4
+2023-02-01,CUST-103 (Luxe Interiors),Circuit Protection,1202.05,71,85345.55
+2023-02-01,CUST-104 (Urban Infra Corp),Modular Switches,455.44,119,54197.36
+2023-02-01,CUST-104 (Urban Infra Corp),Home Automation,8331.88,24,199965.12
+2023-02-01,CUST-104 (Urban Infra Corp),Circuit Protection,1215.14,81,98426.34
+2023-02-01,CUST-105 (Nova Distributors),Modular Switches,442.33,215,95100.95
+2023-02-01,CUST-105 (Nova Distributors),Home Automation,8451.88,24,202845.12
+2023-02-01,CUST-105 (Nova Distributors),Circuit Protection,1179.05,117,137948.85
+2023-03-01,CUST-101 (Apex Builders),Modular Switches,446.85,166,74177.1
+2023-03-01,CUST-101 (Apex Builders),Home Automation,8631.65,29,250317.85
+2023-03-01,CUST-101 (Apex Builders),Circuit Protection,1198.67,83,99489.61
+2023-03-01,CUST-102 (Metro Electricals),Modular Switches,451.1,170,76687.0
+2023-03-01,CUST-102 (Metro Electricals),Home Automation,8592.13,47,403830.11
+2023-03-01,CUST-102 (Metro Electricals),Circuit Protection,1196.52,86,102900.72
+2023-03-01,CUST-103 (Luxe Interiors),Modular Switches,442.94,123,54481.62
+2023-03-01,CUST-103 (Luxe Interiors),Home Automation,8436.88,19,160300.72
+2023-03-01,CUST-103 (Luxe Interiors),Circuit Protection,1200.41,63,75625.83
+2023-03-01,CUST-104 (Urban Infra Corp),Modular Switches,454.6,165,75009.0
+2023-03-01,CUST-104 (Urban Infra Corp),Home Automation,8407.79,25,210194.75
+2023-03-01,CUST-104 (Urban Infra Corp),Circuit Protection,1183.74,78,92331.72
+2023-03-01,CUST-105 (Nova Distributors),Modular Switches,455.55,231,105232.05
+2023-03-01,CUST-105 (Nova Distributors),Home Automation,8603.25,35,301113.75
+2023-03-01,CUST-105 (Nova Distributors),Circuit Protection,1184.96,110,130345.6
+2023-04-01,CUST-101 (Apex Builders),Modular Switches,457.13,220,100568.6
+2023-04-01,CUST-101 (Apex Builders),Home Automation,8438.12,30,253143.6
+2023-04-01,CUST-101 (Apex Builders),Circuit Protection,1196.5,97,116060.5
+2023-04-01,CUST-102 (Metro Electricals),Modular Switches,456.49,193,88102.57
+2023-04-01,CUST-102 (Metro Electricals),Home Automation,8471.92,31,262629.52
+2023-04-01,CUST-102 (Metro Electricals),Circuit Protection,1186.66,97,115106.02
+2023-04-01,CUST-103 (Luxe Interiors),Modular Switches,446.82,180,80427.6
+2023-04-01,CUST-103 (Luxe Interiors),Home Automation,8506.39,29,246685.31
+2023-04-01,CUST-103 (Luxe Interiors),Circuit Protection,1222.65,132,161389.8
+2023-04-01,CUST-104 (Urban Infra Corp),Modular Switches,445.53,147,65492.91
+2023-04-01,CUST-104 (Urban Infra Corp),Home Automation,8426.85,34,286512.9
+2023-04-01,CUST-104 (Urban Infra Corp),Circuit Protection,1177.77,111,130732.47
+2023-04-01,CUST-105 (Nova Distributors),Modular Switches,446.02,170,75823.4
+2023-04-01,CUST-105 (Nova Distributors),Home Automation,8638.81,18,155498.58
+2023-04-01,CUST-105 (Nova Distributors),Circuit Protection,1199.49,62,74368.38
+2023-05-01,CUST-101 (Apex Builders),Modular Switches,445.36,220,97979.2
+2023-05-01,CUST-101 (Apex Builders),Home Automation,8410.8,34,285967.2
+2023-05-01,CUST-101 (Apex Builders),Circuit Protection,1210.95,121,146524.95
+2023-05-01,CUST-102 (Metro Electricals),Modular Switches,450.64,125,56330.0
+2023-05-01,CUST-102 (Metro Electricals),Home Automation,8360.7,24,200656.8
+2023-05-01,CUST-102 (Metro Electricals),Circuit Protection,1184.95,96,113755.2
+2023-05-01,CUST-103 (Luxe Interiors),Modular Switches,451.64,85,38389.4
+2023-05-01,CUST-103 (Luxe Interiors),Home Automation,8549.36,18,153888.48
+2023-05-01,CUST-103 (Luxe Interiors),Circuit Protection,1184.37,51,60402.87
+2023-05-01,CUST-104 (Urban Infra Corp),Modular Switches,443.48,226,100226.48
+2023-05-01,CUST-104 (Urban Infra Corp),Home Automation,8445.96,29,244932.84
+2023-05-01,CUST-104 (Urban Infra Corp),Circuit Protection,1207.68,106,128014.08
+2023-05-01,CUST-105 (Nova Distributors),Modular Switches,450.99,132,59530.68
+2023-05-01,CUST-105 (Nova Distributors),Home Automation,8361.65,29,242487.85
+2023-05-01,CUST-105 (Nova Distributors),Circuit Protection,1219.07,96,117030.72
+2023-06-01,CUST-101 (Apex Builders),Modular Switches,447.29,151,67540.79
+2023-06-01,CUST-101 (Apex Builders),Home Automation,8576.82,24,205843.68
+2023-06-01,CUST-101 (Apex Builders),Circuit Protection,1180.04,85,100303.4
+2023-06-01,CUST-102 (Metro Electricals),Modular Switches,457.17,126,57603.42
+2023-06-01,CUST-102 (Metro Electricals),Home Automation,8331.72,18,149970.96
+2023-06-01,CUST-102 (Metro Electricals),Circuit Protection,1183.72,82,97065.04
+2023-06-01,CUST-103 (Luxe Interiors),Modular Switches,445.04,172,76546.88
+2023-06-01,CUST-103 (Luxe Interiors),Home Automation,8572.14,23,197159.22
+2023-06-01,CUST-103 (Luxe Interiors),Circuit Protection,1211.83,71,86039.93
+2023-06-01,CUST-104 (Urban Infra Corp),Modular Switches,456.29,180,82132.2
+2023-06-01,CUST-104 (Urban Infra Corp),Home Automation,8361.85,34,284302.9
+2023-06-01,CUST-104 (Urban Infra Corp),Circuit Protection,1193.65,74,88330.1
+2023-06-01,CUST-105 (Nova Distributors),Modular Switches,448.08,163,73037.04
+2023-06-01,CUST-105 (Nova Distributors),Home Automation,8633.3,36,310798.8
+2023-06-01,CUST-105 (Nova Distributors),Circuit Protection,1200.13,107,128413.91
+2023-07-01,CUST-101 (Apex Builders),Modular Switches,449.87,188,84575.56
+2023-07-01,CUST-101 (Apex Builders),Home Automation,8425.46,24,202211.04
+2023-07-01,CUST-101 (Apex Builders),Circuit Protection,1177.17,76,89464.92
+2023-07-01,CUST-102 (Metro Electricals),Modular Switches,458.17,219,100339.23
+2023-07-01,CUST-102 (Metro Electricals),Home Automation,8641.05,33,285154.65
+2023-07-01,CUST-102 (Metro Electricals),Circuit Protection,1222.4,121,147910.4
+2023-07-01,CUST-103 (Luxe Interiors),Modular Switches,456.35,180,82143.0
+2023-07-01,CUST-103 (Luxe Interiors),Home Automation,8619.39,26,224104.14
+2023-07-01,CUST-103 (Luxe Interiors),Circuit Protection,1191.21,113,134606.73
+2023-07-01,CUST-104 (Urban Infra Corp),Modular Switches,453.53,166,75285.98
+2023-07-01,CUST-104 (Urban Infra Corp),Home Automation,8523.82,35,298333.7
+2023-07-01,CUST-104 (Urban Infra Corp),Circuit Protection,1223.52,95,116234.4
+2023-07-01,CUST-105 (Nova Distributors),Modular Switches,450.33,139,62595.87
+2023-07-01,CUST-105 (Nova Distributors),Home Automation,8566.99,23,197040.77
+2023-07-01,CUST-105 (Nova Distributors),Circuit Protection,1209.72,56,67744.32
+2023-08-01,CUST-101 (Apex Builders),Modular Switches,455.58,165,75170.7
+2023-08-01,CUST-101 (Apex Builders),Home Automation,8624.8,32,275993.6
+2023-08-01,CUST-101 (Apex Builders),Circuit Protection,1200.07,116,139208.12
+2023-08-01,CUST-102 (Metro Electricals),Modular Switches,452.7,219,99141.3
+2023-08-01,CUST-102 (Metro Electricals),Home Automation,8632.6,35,302141.0
+2023-08-01,CUST-102 (Metro Electricals),Circuit Protection,1192.22,90,107299.8
+2023-08-01,CUST-103 (Luxe Interiors),Modular Switches,441.65,165,72872.25
+2023-08-01,CUST-103 (Luxe Interiors),Home Automation,8488.3,20,169766.0
+2023-08-01,CUST-103 (Luxe Interiors),Circuit Protection,1204.36,96,115618.56
+2023-08-01,CUST-104 (Urban Infra Corp),Modular Switches,441.67,114,50350.38
+2023-08-01,CUST-104 (Urban Infra Corp),Home Automation,8373.2,23,192583.6
+2023-08-01,CUST-104 (Urban Infra Corp),Circuit Protection,1201.07,58,69662.06
+2023-08-01,CUST-105 (Nova Distributors),Modular Switches,442.54,194,85852.76
+2023-08-01,CUST-105 (Nova Distributors),Home Automation,8347.57,39,325555.23
+2023-08-01,CUST-105 (Nova Distributors),Circuit Protection,1206.6,119,143585.4
+2023-09-01,CUST-101 (Apex Builders),Modular Switches,458.57,129,59155.53
+2023-09-01,CUST-101 (Apex Builders),Home Automation,8600.36,31,266611.16
+2023-09-01,CUST-101 (Apex Builders),Circuit Protection,1189.0,87,103443.0
+2023-09-01,CUST-102 (Metro Electricals),Modular Switches,458.33,120,54999.6
+2023-09-01,CUST-102 (Metro Electricals),Home Automation,8614.23,18,155056.14
+2023-09-01,CUST-102 (Metro Electricals),Circuit Protection,1184.32,81,95929.92
+2023-09-01,CUST-103 (Luxe Interiors),Modular Switches,445.5,169,75289.5
+2023-09-01,CUST-103 (Luxe Interiors),Home Automation,8554.47,23,196752.81
+2023-09-01,CUST-103 (Luxe Interiors),Circuit Protection,1189.44,94,111807.36
+2023-09-01,CUST-104 (Urban Infra Corp),Modular Switches,445.46,182,81073.72
+2023-09-01,CUST-104 (Urban Infra Corp),Home Automation,8451.03,25,211275.75
+2023-09-01,CUST-104 (Urban Infra Corp),Circuit Protection,1180.7,107,126334.9
+2023-09-01,CUST-105 (Nova Distributors),Modular Switches,449.52,158,71024.16
+2023-09-01,CUST-105 (Nova Distributors),Home Automation,8465.49,22,186240.78
+2023-09-01,CUST-105 (Nova Distributors),Circuit Protection,1205.56,81,97650.36
+2023-10-01,CUST-101 (Apex Builders),Modular Switches,452.27,195,88192.65
+2023-10-01,CUST-101 (Apex Builders),Home Automation,8501.07,33,280535.31
+2023-10-01,CUST-101 (Apex Builders),Circuit Protection,1183.82,116,137323.12
+2023-10-01,CUST-102 (Metro Electricals),Modular Switches,452.56,159,71957.04
+2023-10-01,CUST-102 (Metro Electricals),Home Automation,8649.68,24,207592.32
+2023-10-01,CUST-102 (Metro Electricals),Circuit Protection,1203.62,104,125176.48
+2023-10-01,CUST-103 (Luxe Interiors),Modular Switches,450.82,164,73934.48
+2023-10-01,CUST-103 (Luxe Interiors),Home Automation,8650.1,35,302753.5
+2023-10-01,CUST-103 (Luxe Interiors),Circuit Protection,1219.46,105,128043.3
+2023-10-01,CUST-104 (Urban Infra Corp),Modular Switches,442.25,179,79162.75
+2023-10-01,CUST-104 (Urban Infra Corp),Home Automation,8354.2,25,208855.0
+2023-10-01,CUST-104 (Urban Infra Corp),Circuit Protection,1191.31,83,98878.73
+2023-10-01,CUST-105 (Nova Distributors),Modular Switches,453.54,184,83451.36
+2023-10-01,CUST-105 (Nova Distributors),Home Automation,8543.84,28,239227.52
+2023-10-01,CUST-105 (Nova Distributors),Circuit Protection,1214.57,94,114169.58
+2023-11-01,CUST-101 (Apex Builders),Modular Switches,444.19,202,89726.38
+2023-11-01,CUST-101 (Apex Builders),Home Automation,8666.77,33,286003.41
+2023-11-01,CUST-101 (Apex Builders),Circuit Protection,1195.81,115,137518.15
+2023-11-01,CUST-102 (Metro Electricals),Modular Switches,457.75,171,78275.25
+2023-11-01,CUST-102 (Metro Electricals),Home Automation,8621.86,38,327630.68
+2023-11-01,CUST-102 (Metro Electricals),Circuit Protection,1212.22,93,112736.46
+2023-11-01,CUST-103 (Luxe Interiors),Modular Switches,457.25,193,88249.25
+2023-11-01,CUST-103 (Luxe Interiors),Home Automation,8438.82,27,227848.14
+2023-11-01,CUST-103 (Luxe Interiors),Circuit Protection,1218.99,90,109709.1
+2023-11-01,CUST-104 (Urban Infra Corp),Modular Switches,451.32,251,113281.32
+2023-11-01,CUST-104 (Urban Infra Corp),Home Automation,8544.82,31,264889.42
+2023-11-01,CUST-104 (Urban Infra Corp),Circuit Protection,1191.78,127,151356.06
+2023-11-01,CUST-105 (Nova Distributors),Modular Switches,454.54,246,111816.84
+2023-11-01,CUST-105 (Nova Distributors),Home Automation,8361.01,41,342801.41
+2023-11-01,CUST-105 (Nova Distributors),Circuit Protection,1199.73,121,145167.33
+2023-12-01,CUST-101 (Apex Builders),Modular Switches,456.98,179,81799.42
+2023-12-01,CUST-101 (Apex Builders),Home Automation,8449.31,36,304175.16
+2023-12-01,CUST-101 (Apex Builders),Circuit Protection,1180.85,128,151148.8
+2023-12-01,CUST-102 (Metro Electricals),Modular Switches,453.62,148,67135.76
+2023-12-01,CUST-102 (Metro Electricals),Home Automation,8358.84,27,225688.68
+2023-12-01,CUST-102 (Metro Electricals),Circuit Protection,1223.36,66,80741.76
+2023-12-01,CUST-103 (Luxe Interiors),Modular Switches,458.05,190,87029.5
+2023-12-01,CUST-103 (Luxe Interiors),Home Automation,8665.24,36,311948.64
+2023-12-01,CUST-103 (Luxe Interiors),Circuit Protection,1180.01,155,182901.55
+2023-12-01,CUST-104 (Urban Infra Corp),Modular Switches,451.05,267,120430.35
+2023-12-01,CUST-104 (Urban Infra Corp),Home Automation,8367.81,38,317976.78
+2023-12-01,CUST-104 (Urban Infra Corp),Circuit Protection,1199.65,126,151155.9
+2023-12-01,CUST-105 (Nova Distributors),Modular Switches,443.14,149,66027.86
+2023-12-01,CUST-105 (Nova Distributors),Home Automation,8369.96,31,259468.76
+2023-12-01,CUST-105 (Nova Distributors),Circuit Protection,1204.0,93,111972.0
+2024-01-01,CUST-101 (Apex Builders),Modular Switches,461.25,250,115312.5
+2024-01-01,CUST-101 (Apex Builders),Home Automation,8661.02,35,303135.7
+2024-01-01,CUST-101 (Apex Builders),Circuit Protection,1258.23,125,157278.75
+2024-01-01,CUST-102 (Metro Electricals),Modular Switches,464.47,139,64561.33
+2024-01-01,CUST-102 (Metro Electricals),Home Automation,8914.56,31,276351.36
+2024-01-01,CUST-102 (Metro Electricals),Circuit Protection,1245.4,78,97141.2
+2024-01-01,CUST-103 (Luxe Interiors),Modular Switches,465.8,200,93160.0
+2024-01-01,CUST-103 (Luxe Interiors),Home Automation,8600.45,30,258013.5
+2024-01-01,CUST-103 (Luxe Interiors),Circuit Protection,1225.49,125,153186.25
+2024-01-01,CUST-104 (Urban Infra Corp),Modular Switches,457.89,140,64104.6
+2024-01-01,CUST-104 (Urban Infra Corp),Home Automation,8742.66,30,262279.8
+2024-01-01,CUST-104 (Urban Infra Corp),Circuit Protection,1215.73,61,74159.53
+2024-01-01,CUST-105 (Nova Distributors),Modular Switches,472.25,240,113340.0
+2024-01-01,CUST-105 (Nova Distributors),Home Automation,8690.24,48,417131.52
+2024-01-01,CUST-105 (Nova Distributors),Circuit Protection,1251.06,105,131361.3
+2024-02-01,CUST-101 (Apex Builders),Modular Switches,469.31,238,111695.78
+2024-02-01,CUST-101 (Apex Builders),Home Automation,8907.93,41,365225.13
+2024-02-01,CUST-101 (Apex Builders),Circuit Protection,1232.08,144,177419.52
+2024-02-01,CUST-102 (Metro Electricals),Modular Switches,470.09,264,124103.76
+2024-02-01,CUST-102 (Metro Electricals),Home Automation,8920.67,34,303302.78
+2024-02-01,CUST-102 (Metro Electricals),Circuit Protection,1219.22,88,107291.36
+2024-02-01,CUST-103 (Luxe Interiors),Modular Switches,469.66,274,128686.84
+2024-02-01,CUST-103 (Luxe Interiors),Home Automation,8870.03,24,212880.72
+2024-02-01,CUST-103 (Luxe Interiors),Circuit Protection,1225.12,105,128637.6
+2024-02-01,CUST-104 (Urban Infra Corp),Modular Switches,470.07,137,64399.59
+2024-02-01,CUST-104 (Urban Infra Corp),Home Automation,8846.46,23,203468.58
+2024-02-01,CUST-104 (Urban Infra Corp),Circuit Protection,1257.35,68,85499.8
+2024-02-01,CUST-105 (Nova Distributors),Modular Switches,456.82,193,88166.26
+2024-02-01,CUST-105 (Nova Distributors),Home Automation,8909.38,23,204915.74
+2024-02-01,CUST-105 (Nova Distributors),Circuit Protection,1244.24,101,125668.24
+2024-03-01,CUST-101 (Apex Builders),Modular Switches,460.95,202,93111.9
+2024-03-01,CUST-101 (Apex Builders),Home Automation,8761.9,28,245333.2
+2024-03-01,CUST-101 (Apex Builders),Circuit Protection,1249.07,121,151137.47
+2024-03-01,CUST-102 (Metro Electricals),Modular Switches,464.6,188,87344.8
+2024-03-01,CUST-102 (Metro Electricals),Home Automation,8883.06,26,230959.56
+2024-03-01,CUST-102 (Metro Electricals),Circuit Protection,1213.38,95,115271.1
+2024-03-01,CUST-103 (Luxe Interiors),Modular Switches,465.67,176,81957.92
+2024-03-01,CUST-103 (Luxe Interiors),Home Automation,8631.37,38,327992.06
+2024-03-01,CUST-103 (Luxe Interiors),Circuit Protection,1212.7,127,154012.9
+2024-03-01,CUST-104 (Urban Infra Corp),Modular Switches,462.37,125,57796.25
+2024-03-01,CUST-104 (Urban Infra Corp),Home Automation,8892.41,29,257879.89
+2024-03-01,CUST-104 (Urban Infra Corp),Circuit Protection,1249.62,61,76226.82
+2024-03-01,CUST-105 (Nova Distributors),Modular Switches,465.7,127,59143.9
+2024-03-01,CUST-105 (Nova Distributors),Home Automation,8741.11,28,244751.08
+2024-03-01,CUST-105 (Nova Distributors),Circuit Protection,1259.04,63,79319.52
+2024-04-01,CUST-101 (Apex Builders),Modular Switches,458.82,192,88093.44
+2024-04-01,CUST-101 (Apex Builders),Home Automation,8610.79,27,232491.33
+2024-04-01,CUST-101 (Apex Builders),Circuit Protection,1228.59,111,136373.49
+2024-04-01,CUST-102 (Metro Electricals),Modular Switches,463.03,188,87049.64
+2024-04-01,CUST-102 (Metro Electricals),Home Automation,8650.38,39,337364.82
+2024-04-01,CUST-102 (Metro Electricals),Circuit Protection,1213.96,108,131107.68
+2024-04-01,CUST-103 (Luxe Interiors),Modular Switches,456.1,131,59749.1
+2024-04-01,CUST-103 (Luxe Interiors),Home Automation,8626.02,19,163894.38
+2024-04-01,CUST-103 (Luxe Interiors),Circuit Protection,1229.48,77,94669.96
+2024-04-01,CUST-104 (Urban Infra Corp),Modular Switches,466.93,162,75642.66
+2024-04-01,CUST-104 (Urban Infra Corp),Home Automation,8882.02,31,275342.62
+2024-04-01,CUST-104 (Urban Infra Corp),Circuit Protection,1256.2,95,119339.0
+2024-04-01,CUST-105 (Nova Distributors),Modular Switches,467.97,204,95465.88
+2024-04-01,CUST-105 (Nova Distributors),Home Automation,8647.74,32,276727.68
+2024-04-01,CUST-105 (Nova Distributors),Circuit Protection,1235.26,92,113643.92
+2024-05-01,CUST-101 (Apex Builders),Modular Switches,461.14,216,99606.24
+2024-05-01,CUST-101 (Apex Builders),Home Automation,8597.47,27,232131.69
+2024-05-01,CUST-101 (Apex Builders),Circuit Protection,1224.12,100,122412.0
+2024-05-01,CUST-102 (Metro Electricals),Modular Switches,464.08,172,79821.76
+2024-05-01,CUST-102 (Metro Electricals),Home Automation,8621.44,33,284507.52
+2024-05-01,CUST-102 (Metro Electricals),Circuit Protection,1223.64,55,67300.2
+2024-05-01,CUST-103 (Luxe Interiors),Modular Switches,461.29,128,59045.12
+2024-05-01,CUST-103 (Luxe Interiors),Home Automation,8625.72,19,163888.68
+2024-05-01,CUST-103 (Luxe Interiors),Circuit Protection,1254.75,95,119201.25
+2024-05-01,CUST-104 (Urban Infra Corp),Modular Switches,463.47,214,99182.58
+2024-05-01,CUST-104 (Urban Infra Corp),Home Automation,8614.55,42,361811.1
+2024-05-01,CUST-104 (Urban Infra Corp),Circuit Protection,1247.78,116,144742.48
+2024-05-01,CUST-105 (Nova Distributors),Modular Switches,456.8,136,62124.8
+2024-05-01,CUST-105 (Nova Distributors),Home Automation,8804.61,20,176092.2
+2024-05-01,CUST-105 (Nova Distributors),Circuit Protection,1239.4,66,81800.4
+2024-06-01,CUST-101 (Apex Builders),Modular Switches,457.25,138,63100.5
+2024-06-01,CUST-101 (Apex Builders),Home Automation,8668.63,20,173372.6
+2024-06-01,CUST-101 (Apex Builders),Circuit Protection,1225.68,63,77217.84
+2024-06-01,CUST-102 (Metro Electricals),Modular Switches,470.64,135,63536.4
+2024-06-01,CUST-102 (Metro Electricals),Home Automation,8724.53,19,165766.07
+2024-06-01,CUST-102 (Metro Electricals),Circuit Protection,1259.15,69,86881.35
+2024-06-01,CUST-103 (Luxe Interiors),Modular Switches,470.08,177,83204.16
+2024-06-01,CUST-103 (Luxe Interiors),Home Automation,8862.8,30,265884.0
+2024-06-01,CUST-103 (Luxe Interiors),Circuit Protection,1244.09,100,124409.0
+2024-06-01,CUST-104 (Urban Infra Corp),Modular Switches,464.52,151,70142.52
+2024-06-01,CUST-104 (Urban Infra Corp),Home Automation,8846.63,36,318478.68
+2024-06-01,CUST-104 (Urban Infra Corp),Circuit Protection,1220.98,95,115993.1
+2024-06-01,CUST-105 (Nova Distributors),Modular Switches,458.86,119,54604.34
+2024-06-01,CUST-105 (Nova Distributors),Home Automation,8624.04,21,181104.84
+2024-06-01,CUST-105 (Nova Distributors),Circuit Protection,1239.9,97,120270.3
+2024-07-01,CUST-101 (Apex Builders),Modular Switches,463.16,132,61137.12
+2024-07-01,CUST-101 (Apex Builders),Home Automation,8699.45,24,208786.8
+2024-07-01,CUST-101 (Apex Builders),Circuit Protection,1218.45,90,109660.5
+2024-07-01,CUST-102 (Metro Electricals),Modular Switches,466.77,143,66748.11
+2024-07-01,CUST-102 (Metro Electricals),Home Automation,8843.48,23,203400.04
+2024-07-01,CUST-102 (Metro Electricals),Circuit Protection,1231.77,114,140421.78
+2024-07-01,CUST-103 (Luxe Interiors),Modular Switches,471.23,175,82465.25
+2024-07-01,CUST-103 (Luxe Interiors),Home Automation,8904.04,25,222601.0
+2024-07-01,CUST-103 (Luxe Interiors),Circuit Protection,1220.7,89,108642.3
+2024-07-01,CUST-104 (Urban Infra Corp),Modular Switches,469.65,184,86415.6
+2024-07-01,CUST-104 (Urban Infra Corp),Home Automation,8632.52,28,241710.56
+2024-07-01,CUST-104 (Urban Infra Corp),Circuit Protection,1219.86,109,132964.74
+2024-07-01,CUST-105 (Nova Distributors),Modular Switches,469.16,154,72250.64
+2024-07-01,CUST-105 (Nova Distributors),Home Automation,8707.0,32,278624.0
+2024-07-01,CUST-105 (Nova Distributors),Circuit Protection,1254.11,93,116632.23
+2024-08-01,CUST-101 (Apex Builders),Modular Switches,461.28,164,75649.92
+2024-08-01,CUST-101 (Apex Builders),Home Automation,8742.31,33,288496.23
+2024-08-01,CUST-101 (Apex Builders),Circuit Protection,1236.13,81,100126.53
+2024-08-01,CUST-102 (Metro Electricals),Modular Switches,470.69,174,81900.06
+2024-08-01,CUST-102 (Metro Electricals),Home Automation,8893.2,17,151184.4
+2024-08-01,CUST-102 (Metro Electricals),Circuit Protection,1241.96,64,79485.44
+2024-08-01,CUST-103 (Luxe Interiors),Modular Switches,468.79,170,79694.3
+2024-08-01,CUST-103 (Luxe Interiors),Home Automation,8795.82,27,237487.14
+2024-08-01,CUST-103 (Luxe Interiors),Circuit Protection,1249.85,78,97488.3
+2024-08-01,CUST-104 (Urban Infra Corp),Modular Switches,460.11,165,75918.15
+2024-08-01,CUST-104 (Urban Infra Corp),Home Automation,8596.4,21,180524.4
+2024-08-01,CUST-104 (Urban Infra Corp),Circuit Protection,1239.35,84,104105.4
+2024-08-01,CUST-105 (Nova Distributors),Modular Switches,469.28,174,81654.72
+2024-08-01,CUST-105 (Nova Distributors),Home Automation,8622.61,32,275923.52
+2024-08-01,CUST-105 (Nova Distributors),Circuit Protection,1219.2,82,99974.4
+2024-09-01,CUST-101 (Apex Builders),Modular Switches,467.5,174,81345.0
+2024-09-01,CUST-101 (Apex Builders),Home Automation,8820.94,31,273449.14
+2024-09-01,CUST-101 (Apex Builders),Circuit Protection,1238.05,72,89139.6
+2024-09-01,CUST-102 (Metro Electricals),Modular Switches,470.85,121,56972.85
+2024-09-01,CUST-102 (Metro Electricals),Home Automation,8783.35,21,184450.35
+2024-09-01,CUST-102 (Metro Electricals),Circuit Protection,1257.47,52,65388.44
+2024-09-01,CUST-103 (Luxe Interiors),Modular Switches,465.05,201,93475.05
+2024-09-01,CUST-103 (Luxe Interiors),Home Automation,8591.16,25,214779.0
+2024-09-01,CUST-103 (Luxe Interiors),Circuit Protection,1253.86,79,99054.94
+2024-09-01,CUST-104 (Urban Infra Corp),Modular Switches,471.1,222,104584.2
+2024-09-01,CUST-104 (Urban Infra Corp),Home Automation,8825.46,34,300065.64
+2024-09-01,CUST-104 (Urban Infra Corp),Circuit Protection,1241.12,88,109218.56
+2024-09-01,CUST-105 (Nova Distributors),Modular Switches,467.76,148,69228.48
+2024-09-01,CUST-105 (Nova Distributors),Home Automation,8919.85,28,249755.8
+2024-09-01,CUST-105 (Nova Distributors),Circuit Protection,1252.27,93,116461.11
+2024-10-01,CUST-101 (Apex Builders),Modular Switches,461.68,277,127885.36
+2024-10-01,CUST-101 (Apex Builders),Home Automation,8603.62,46,395766.52
+2024-10-01,CUST-101 (Apex Builders),Circuit Protection,1212.22,115,139405.3
+2024-10-01,CUST-102 (Metro Electricals),Modular Switches,461.67,231,106645.77
+2024-10-01,CUST-102 (Metro Electricals),Home Automation,8702.76,34,295893.84
+2024-10-01,CUST-102 (Metro Electricals),Circuit Protection,1228.65,104,127779.6
+2024-10-01,CUST-103 (Luxe Interiors),Modular Switches,462.64,241,111496.24
+2024-10-01,CUST-103 (Luxe Interiors),Home Automation,8632.89,32,276252.48
+2024-10-01,CUST-103 (Luxe Interiors),Circuit Protection,1232.11,82,101033.02
+2024-10-01,CUST-104 (Urban Infra Corp),Modular Switches,461.02,355,163662.1
+2024-10-01,CUST-104 (Urban Infra Corp),Home Automation,8589.45,54,463830.3
+2024-10-01,CUST-104 (Urban Infra Corp),Circuit Protection,1243.85,142,176626.7
+2024-10-01,CUST-105 (Nova Distributors),Modular Switches,472.44,146,68976.24
+2024-10-01,CUST-105 (Nova Distributors),Home Automation,8755.75,26,227649.5
+2024-10-01,CUST-105 (Nova Distributors),Circuit Protection,1248.0,95,118560.0
+2024-11-01,CUST-101 (Apex Builders),Modular Switches,470.66,174,81894.84
+2024-11-01,CUST-101 (Apex Builders),Home Automation,8597.43,29,249325.47
+2024-11-01,CUST-101 (Apex Builders),Circuit Protection,1234.66,90,111119.4
+2024-11-01,CUST-102 (Metro Electricals),Modular Switches,462.66,265,122604.9
+2024-11-01,CUST-102 (Metro Electricals),Home Automation,8763.29,29,254135.41
+2024-11-01,CUST-102 (Metro Electricals),Circuit Protection,1238.86,113,139991.18
+2024-11-01,CUST-103 (Luxe Interiors),Modular Switches,457.77,145,66376.65
+2024-11-01,CUST-103 (Luxe Interiors),Home Automation,8803.96,27,237706.92
+2024-11-01,CUST-103 (Luxe Interiors),Circuit Protection,1231.62,112,137941.44
+2024-11-01,CUST-104 (Urban Infra Corp),Modular Switches,458.5,200,91700.0
+2024-11-01,CUST-104 (Urban Infra Corp),Home Automation,8663.57,28,242579.96
+2024-11-01,CUST-104 (Urban Infra Corp),Circuit Protection,1220.57,88,107410.16
+2024-11-01,CUST-105 (Nova Distributors),Modular Switches,458.79,236,108274.44
+2024-11-01,CUST-105 (Nova Distributors),Home Automation,8830.57,38,335561.66
+2024-11-01,CUST-105 (Nova Distributors),Circuit Protection,1253.07,123,154127.61
+2024-12-01,CUST-101 (Apex Builders),Modular Switches,458.19,290,132875.1
+2024-12-01,CUST-101 (Apex Builders),Home Automation,8684.67,30,260540.1
+2024-12-01,CUST-101 (Apex Builders),Circuit Protection,1254.85,167,209559.95
+2024-12-01,CUST-102 (Metro Electricals),Modular Switches,460.65,238,109634.7
+2024-12-01,CUST-102 (Metro Electricals),Home Automation,8785.7,34,298713.8
+2024-12-01,CUST-102 (Metro Electricals),Circuit Protection,1224.87,114,139635.18
+2024-12-01,CUST-103 (Luxe Interiors),Modular Switches,462.35,294,135930.9
+2024-12-01,CUST-103 (Luxe Interiors),Home Automation,8685.12,44,382145.28
+2024-12-01,CUST-103 (Luxe Interiors),Circuit Protection,1250.39,123,153797.97
+2024-12-01,CUST-104 (Urban Infra Corp),Modular Switches,454.9,227,103262.3
+2024-12-01,CUST-104 (Urban Infra Corp),Home Automation,8800.38,26,228809.88
+2024-12-01,CUST-104 (Urban Infra Corp),Circuit Protection,1224.38,119,145701.22
+2024-12-01,CUST-105 (Nova Distributors),Modular Switches,463.96,278,128980.88
+2024-12-01,CUST-105 (Nova Distributors),Home Automation,8643.37,36,311161.32
+2024-12-01,CUST-105 (Nova Distributors),Circuit Protection,1238.6,165,204369.0
+2025-01-01,CUST-101 (Apex Builders),Modular Switches,482.94,222,107212.68
+2025-01-01,CUST-101 (Apex Builders),Home Automation,9044.18,40,361767.2
+2025-01-01,CUST-101 (Apex Builders),Circuit Protection,1279.92,82,104953.44
+2025-01-01,CUST-102 (Metro Electricals),Modular Switches,468.85,161,75484.85
+2025-01-01,CUST-102 (Metro Electricals),Home Automation,8896.54,31,275792.74
+2025-01-01,CUST-102 (Metro Electricals),Circuit Protection,1276.95,109,139187.55
+2025-01-01,CUST-103 (Luxe Interiors),Modular Switches,475.01,146,69351.46
+2025-01-01,CUST-103 (Luxe Interiors),Home Automation,9084.48,22,199858.56
+2025-01-01,CUST-103 (Luxe Interiors),Circuit Protection,1262.26,77,97194.02
+2025-01-01,CUST-104 (Urban Infra Corp),Modular Switches,484.86,300,145458.0
+2025-01-01,CUST-104 (Urban Infra Corp),Home Automation,9089.07,39,354473.73
+2025-01-01,CUST-104 (Urban Infra Corp),Circuit Protection,1250.47,88,110041.36
+2025-01-01,CUST-105 (Nova Distributors),Modular Switches,478.74,231,110588.94
+2025-01-01,CUST-105 (Nova Distributors),Home Automation,8876.24,29,257410.96
+2025-01-01,CUST-105 (Nova Distributors),Circuit Protection,1251.61,104,130167.44
+2025-02-01,CUST-101 (Apex Builders),Modular Switches,475.83,276,131329.08
+2025-02-01,CUST-101 (Apex Builders),Home Automation,8923.78,39,348027.42
+2025-02-01,CUST-101 (Apex Builders),Circuit Protection,1281.35,125,160168.75
+2025-02-01,CUST-102 (Metro Electricals),Modular Switches,478.62,154,73707.48
+2025-02-01,CUST-102 (Metro Electricals),Home Automation,9151.89,27,247101.03
+2025-02-01,CUST-102 (Metro Electricals),Circuit Protection,1254.57,91,114165.87
+2025-02-01,CUST-103 (Luxe Interiors),Modular Switches,477.75,179,85517.25
+2025-02-01,CUST-103 (Luxe Interiors),Home Automation,9136.8,30,274104.0
+2025-02-01,CUST-103 (Luxe Interiors),Circuit Protection,1279.62,95,121563.9
+2025-02-01,CUST-104 (Urban Infra Corp),Modular Switches,483.29,216,104390.64
+2025-02-01,CUST-104 (Urban Infra Corp),Home Automation,8915.21,27,240710.67
+2025-02-01,CUST-104 (Urban Infra Corp),Circuit Protection,1295.41,124,160630.84
+2025-02-01,CUST-105 (Nova Distributors),Modular Switches,478.22,168,80340.96
+2025-02-01,CUST-105 (Nova Distributors),Home Automation,9151.27,29,265386.83
+2025-02-01,CUST-105 (Nova Distributors),Circuit Protection,1294.61,84,108747.24
+2025-03-01,CUST-101 (Apex Builders),Modular Switches,476.54,247,117705.38
+2025-03-01,CUST-101 (Apex Builders),Home Automation,8948.49,41,366888.09
+2025-03-01,CUST-101 (Apex Builders),Circuit Protection,1287.79,133,171276.07
+2025-03-01,CUST-102 (Metro Electricals),Modular Switches,470.17,157,73816.69
+2025-03-01,CUST-102 (Metro Electricals),Home Automation,8866.16,23,203921.68
+2025-03-01,CUST-102 (Metro Electricals),Circuit Protection,1282.79,107,137258.53
+2025-03-01,CUST-103 (Luxe Interiors),Modular Switches,473.68,183,86683.44
+2025-03-01,CUST-103 (Luxe Interiors),Home Automation,8948.38,25,223709.5
+2025-03-01,CUST-103 (Luxe Interiors),Circuit Protection,1278.04,83,106077.32
+2025-03-01,CUST-104 (Urban Infra Corp),Modular Switches,468.44,191,89472.04
+2025-03-01,CUST-104 (Urban Infra Corp),Home Automation,9135.83,31,283210.73
+2025-03-01,CUST-104 (Urban Infra Corp),Circuit Protection,1286.34,90,115770.6
+2025-03-01,CUST-105 (Nova Distributors),Modular Switches,474.31,232,110039.92
+2025-03-01,CUST-105 (Nova Distributors),Home Automation,9003.16,50,450158.0
+2025-03-01,CUST-105 (Nova Distributors),Circuit Protection,1278.12,125,159765.0
+2025-04-01,CUST-101 (Apex Builders),Modular Switches,481.28,230,110694.4
+2025-04-01,CUST-101 (Apex Builders),Home Automation,8921.18,30,267635.4
+2025-04-01,CUST-101 (Apex Builders),Circuit Protection,1261.79,88,111037.52
+2025-04-01,CUST-102 (Metro Electricals),Modular Switches,472.2,175,82635.0
+2025-04-01,CUST-102 (Metro Electricals),Home Automation,8970.67,30,269120.1
+2025-04-01,CUST-102 (Metro Electricals),Circuit Protection,1280.62,107,137026.34
+2025-04-01,CUST-103 (Luxe Interiors),Modular Switches,476.41,238,113385.58
+2025-04-01,CUST-103 (Luxe Interiors),Home Automation,9048.56,48,434330.88
+2025-04-01,CUST-103 (Luxe Interiors),Circuit Protection,1272.61,163,207435.43
+2025-04-01,CUST-104 (Urban Infra Corp),Modular Switches,471.18,153,72090.54
+2025-04-01,CUST-104 (Urban Infra Corp),Home Automation,9105.06,25,227626.5
+2025-04-01,CUST-104 (Urban Infra Corp),Circuit Protection,1264.81,109,137864.29
+2025-04-01,CUST-105 (Nova Distributors),Modular Switches,470.77,200,94154.0
+2025-04-01,CUST-105 (Nova Distributors),Home Automation,9117.38,32,291756.16
+2025-04-01,CUST-105 (Nova Distributors),Circuit Protection,1273.77,104,132472.08
+2025-05-01,CUST-101 (Apex Builders),Modular Switches,478.44,170,81334.8
+2025-05-01,CUST-101 (Apex Builders),Home Automation,9142.17,29,265122.93
+2025-05-01,CUST-101 (Apex Builders),Circuit Protection,1293.87,104,134562.48
+2025-05-01,CUST-102 (Metro Electricals),Modular Switches,477.92,202,96539.84
+2025-05-01,CUST-102 (Metro Electricals),Home Automation,8869.58,23,204000.34
+2025-05-01,CUST-102 (Metro Electricals),Circuit Protection,1260.47,83,104619.01
+2025-05-01,CUST-103 (Luxe Interiors),Modular Switches,476.93,184,87755.12
+2025-05-01,CUST-103 (Luxe Interiors),Home Automation,9129.41,34,310399.94
+2025-05-01,CUST-103 (Luxe Interiors),Circuit Protection,1271.77,147,186950.19
+2025-05-01,CUST-104 (Urban Infra Corp),Modular Switches,474.26,193,91532.18
+2025-05-01,CUST-104 (Urban Infra Corp),Home Automation,9070.53,26,235833.78
+2025-05-01,CUST-104 (Urban Infra Corp),Circuit Protection,1290.17,119,153530.23
+2025-05-01,CUST-105 (Nova Distributors),Modular Switches,479.85,232,111325.2
+2025-05-01,CUST-105 (Nova Distributors),Home Automation,9077.14,37,335854.18
+2025-05-01,CUST-105 (Nova Distributors),Circuit Protection,1280.65,133,170326.45
+2025-06-01,CUST-101 (Apex Builders),Modular Switches,483.86,159,76933.74
+2025-06-01,CUST-101 (Apex Builders),Home Automation,9136.43,22,201001.46
+2025-06-01,CUST-101 (Apex Builders),Circuit Protection,1283.69,67,86007.23
+2025-06-01,CUST-102 (Metro Electricals),Modular Switches,482.72,145,69994.4
+2025-06-01,CUST-102 (Metro Electricals),Home Automation,8842.17,28,247580.76
+2025-06-01,CUST-102 (Metro Electricals),Circuit Protection,1261.78,79,99680.62
+2025-06-01,CUST-103 (Luxe Interiors),Modular Switches,472.68,192,90754.56
+2025-06-01,CUST-103 (Luxe Interiors),Home Automation,9055.56,38,344111.28
+2025-06-01,CUST-103 (Luxe Interiors),Circuit Protection,1253.14,105,131579.7
+2025-06-01,CUST-104 (Urban Infra Corp),Modular Switches,477.74,200,95548.0
+2025-06-01,CUST-104 (Urban Infra Corp),Home Automation,9055.09,35,316928.15
+2025-06-01,CUST-104 (Urban Infra Corp),Circuit Protection,1292.74,101,130566.74
+2025-06-01,CUST-105 (Nova Distributors),Modular Switches,480.75,163,78362.25
+2025-06-01,CUST-105 (Nova Distributors),Home Automation,8862.9,19,168395.1
+2025-06-01,CUST-105 (Nova Distributors),Circuit Protection,1277.8,96,122668.8
+2025-07-01,CUST-101 (Apex Builders),Modular Switches,483.69,136,65781.84
+2025-07-01,CUST-101 (Apex Builders),Home Automation,9097.81,26,236543.06
+2025-07-01,CUST-101 (Apex Builders),Circuit Protection,1249.18,98,122419.64
+2025-07-01,CUST-102 (Metro Electricals),Modular Switches,476.03,215,102346.45
+2025-07-01,CUST-102 (Metro Electricals),Home Automation,8933.03,29,259057.87
+2025-07-01,CUST-102 (Metro Electricals),Circuit Protection,1286.15,113,145334.95
+2025-07-01,CUST-103 (Luxe Interiors),Modular Switches,471.97,226,106665.22
+2025-07-01,CUST-103 (Luxe Interiors),Home Automation,9062.53,33,299063.49
+2025-07-01,CUST-103 (Luxe Interiors),Circuit Protection,1261.12,128,161423.36
+2025-07-01,CUST-104 (Urban Infra Corp),Modular Switches,479.49,186,89185.14
+2025-07-01,CUST-104 (Urban Infra Corp),Home Automation,8975.18,35,314131.3
+2025-07-01,CUST-104 (Urban Infra Corp),Circuit Protection,1259.04,97,122126.88
+2025-07-01,CUST-105 (Nova Distributors),Modular Switches,468.56,135,63255.6
+2025-07-01,CUST-105 (Nova Distributors),Home Automation,9133.88,33,301418.04
+2025-07-01,CUST-105 (Nova Distributors),Circuit Protection,1270.71,93,118176.03
+2025-08-01,CUST-101 (Apex Builders),Modular Switches,483.21,242,116936.82
+2025-08-01,CUST-101 (Apex Builders),Home Automation,9098.75,32,291160.0
+2025-08-01,CUST-101 (Apex Builders),Circuit Protection,1249.56,127,158694.12
+2025-08-01,CUST-102 (Metro Electricals),Modular Switches,479.1,240,114984.0
+2025-08-01,CUST-102 (Metro Electricals),Home Automation,8879.88,49,435114.12
+2025-08-01,CUST-102 (Metro Electricals),Circuit Protection,1254.01,116,145465.16
+2025-08-01,CUST-103 (Luxe Interiors),Modular Switches,476.85,210,100138.5
+2025-08-01,CUST-103 (Luxe Interiors),Home Automation,8861.83,21,186098.43
+2025-08-01,CUST-103 (Luxe Interiors),Circuit Protection,1286.28,95,122196.6
+2025-08-01,CUST-104 (Urban Infra Corp),Modular Switches,476.19,165,78571.35
+2025-08-01,CUST-104 (Urban Infra Corp),Home Automation,9044.01,18,162792.18
+2025-08-01,CUST-104 (Urban Infra Corp),Circuit Protection,1262.0,105,132510.0
+2025-08-01,CUST-105 (Nova Distributors),Modular Switches,468.71,242,113427.82
+2025-08-01,CUST-105 (Nova Distributors),Home Automation,9003.37,36,324121.32
+2025-08-01,CUST-105 (Nova Distributors),Circuit Protection,1295.36,114,147671.04
+2025-09-01,CUST-101 (Apex Builders),Modular Switches,476.98,195,93011.1
+2025-09-01,CUST-101 (Apex Builders),Home Automation,9030.28,30,270908.4
+2025-09-01,CUST-101 (Apex Builders),Circuit Protection,1248.47,87,108616.89
+2025-09-01,CUST-102 (Metro Electricals),Modular Switches,474.31,106,50276.86
+2025-09-01,CUST-102 (Metro Electricals),Home Automation,8851.29,24,212430.96
+2025-09-01,CUST-102 (Metro Electricals),Circuit Protection,1254.37,72,90314.64
+2025-09-01,CUST-103 (Luxe Interiors),Modular Switches,480.41,187,89836.67
+2025-09-01,CUST-103 (Luxe Interiors),Home Automation,8896.94,37,329186.78
+2025-09-01,CUST-103 (Luxe Interiors),Circuit Protection,1253.02,132,165398.64
+2025-09-01,CUST-104 (Urban Infra Corp),Modular Switches,484.85,167,80969.95
+2025-09-01,CUST-104 (Urban Infra Corp),Home Automation,8857.67,31,274587.77
+2025-09-01,CUST-104 (Urban Infra Corp),Circuit Protection,1289.81,82,105764.42
+2025-09-01,CUST-105 (Nova Distributors),Modular Switches,482.43,255,123019.65
+2025-09-01,CUST-105 (Nova Distributors),Home Automation,8867.24,33,292618.92
+2025-09-01,CUST-105 (Nova Distributors),Circuit Protection,1290.95,141,182023.95
+2025-10-01,CUST-101 (Apex Builders),Modular Switches,479.58,248,118935.84
+2025-10-01,CUST-101 (Apex Builders),Home Automation,9018.98,37,333702.26
+2025-10-01,CUST-101 (Apex Builders),Circuit Protection,1250.9,132,165118.8
+2025-10-01,CUST-102 (Metro Electricals),Modular Switches,470.87,203,95586.61
+2025-10-01,CUST-102 (Metro Electricals),Home Automation,9171.79,37,339356.23
+2025-10-01,CUST-102 (Metro Electricals),Circuit Protection,1264.17,122,154228.74
+2025-10-01,CUST-103 (Luxe Interiors),Modular Switches,476.97,245,116857.65
+2025-10-01,CUST-103 (Luxe Interiors),Home Automation,9028.82,38,343095.16
+2025-10-01,CUST-103 (Luxe Interiors),Circuit Protection,1295.82,159,206035.38
+2025-10-01,CUST-104 (Urban Infra Corp),Modular Switches,479.71,340,163101.4
+2025-10-01,CUST-104 (Urban Infra Corp),Home Automation,8864.55,43,381175.65
+2025-10-01,CUST-104 (Urban Infra Corp),Circuit Protection,1249.47,159,198665.73
+2025-10-01,CUST-105 (Nova Distributors),Modular Switches,481.09,222,106801.98
+2025-10-01,CUST-105 (Nova Distributors),Home Automation,9092.52,35,318238.2
+2025-10-01,CUST-105 (Nova Distributors),Circuit Protection,1265.81,137,173415.97
+2025-11-01,CUST-101 (Apex Builders),Modular Switches,468.72,323,151396.56
+2025-11-01,CUST-101 (Apex Builders),Home Automation,8989.13,60,539347.8
+2025-11-01,CUST-101 (Apex Builders),Circuit Protection,1282.81,194,248865.14
+2025-11-01,CUST-102 (Metro Electricals),Modular Switches,475.59,299,142201.41
+2025-11-01,CUST-102 (Metro Electricals),Home Automation,8934.12,56,500310.72
+2025-11-01,CUST-102 (Metro Electricals),Circuit Protection,1258.11,165,207588.15
+2025-11-01,CUST-103 (Luxe Interiors),Modular Switches,479.37,239,114569.43
+2025-11-01,CUST-103 (Luxe Interiors),Home Automation,9083.38,46,417835.48
+2025-11-01,CUST-103 (Luxe Interiors),Circuit Protection,1291.63,129,166620.27
+2025-11-01,CUST-104 (Urban Infra Corp),Modular Switches,471.26,279,131481.54
+2025-11-01,CUST-104 (Urban Infra Corp),Home Automation,9130.49,39,356089.11
+2025-11-01,CUST-104 (Urban Infra Corp),Circuit Protection,1289.8,164,211527.2
+2025-11-01,CUST-105 (Nova Distributors),Modular Switches,477.27,281,134112.87
+2025-11-01,CUST-105 (Nova Distributors),Home Automation,8895.6,29,257972.4
+2025-11-01,CUST-105 (Nova Distributors),Circuit Protection,1266.77,103,130477.31
+2025-12-01,CUST-101 (Apex Builders),Modular Switches,470.36,333,156629.88
+2025-12-01,CUST-101 (Apex Builders),Home Automation,9169.74,36,330110.64
+2025-12-01,CUST-101 (Apex Builders),Circuit Protection,1251.53,145,181471.85
+2025-12-01,CUST-102 (Metro Electricals),Modular Switches,477.36,233,111224.88
+2025-12-01,CUST-102 (Metro Electricals),Home Automation,8986.5,31,278581.5
+2025-12-01,CUST-102 (Metro Electricals),Circuit Protection,1259.94,132,166312.08
+2025-12-01,CUST-103 (Luxe Interiors),Modular Switches,471.02,228,107392.56
+2025-12-01,CUST-103 (Luxe Interiors),Home Automation,8852.47,38,336393.86
+2025-12-01,CUST-103 (Luxe Interiors),Circuit Protection,1270.78,127,161389.06
+2025-12-01,CUST-104 (Urban Infra Corp),Modular Switches,482.5,339,163567.5
+2025-12-01,CUST-104 (Urban Infra Corp),Home Automation,8909.99,50,445499.5
+2025-12-01,CUST-104 (Urban Infra Corp),Circuit Protection,1253.37,155,194272.35
+2025-12-01,CUST-105 (Nova Distributors),Modular Switches,484.86,250,121215.0
+2025-12-01,CUST-105 (Nova Distributors),Home Automation,8853.38,41,362988.58
+2025-12-01,CUST-105 (Nova Distributors),Circuit Protection,1292.83,113,146089.79
+2026-01-01,CUST-101 (Apex Builders),Modular Switches,490.63,219,107447.97
+2026-01-01,CUST-101 (Apex Builders),Home Automation,9249.61,33,305237.13
+2026-01-01,CUST-101 (Apex Builders),Circuit Protection,1308.75,135,176681.25
+2026-01-01,CUST-102 (Metro Electricals),Modular Switches,482.04,168,80982.72
+2026-01-01,CUST-102 (Metro Electricals),Home Automation,9199.7,24,220792.8
+2026-01-01,CUST-102 (Metro Electricals),Circuit Protection,1316.32,100,131632.0
+2026-01-01,CUST-103 (Luxe Interiors),Modular Switches,483.19,244,117898.36
+2026-01-01,CUST-103 (Luxe Interiors),Home Automation,9390.17,57,535239.69
+2026-01-01,CUST-103 (Luxe Interiors),Circuit Protection,1292.5,162,209385.0
+2026-01-01,CUST-104 (Urban Infra Corp),Modular Switches,493.8,286,141226.8
+2026-01-01,CUST-104 (Urban Infra Corp),Home Automation,9264.04,50,463202.0
+2026-01-01,CUST-104 (Urban Infra Corp),Circuit Protection,1311.39,148,194085.72
+2026-01-01,CUST-105 (Nova Distributors),Modular Switches,498.26,186,92676.36
+2026-01-01,CUST-105 (Nova Distributors),Home Automation,9168.33,31,284218.23
+2026-01-01,CUST-105 (Nova Distributors),Circuit Protection,1315.63,105,138141.15
+2026-02-01,CUST-101 (Apex Builders),Modular Switches,493.34,139,68574.26
+2026-02-01,CUST-101 (Apex Builders),Home Automation,9434.8,32,301913.6
+2026-02-01,CUST-101 (Apex Builders),Circuit Protection,1321.55,86,113653.3
+2026-02-01,CUST-102 (Metro Electricals),Modular Switches,494.79,214,105885.06
+2026-02-01,CUST-102 (Metro Electricals),Home Automation,9206.19,42,386659.98
+2026-02-01,CUST-102 (Metro Electricals),Circuit Protection,1316.04,129,169769.16
+2026-02-01,CUST-103 (Luxe Interiors),Modular Switches,489.34,275,134568.5
+2026-02-01,CUST-103 (Luxe Interiors),Home Automation,9373.06,42,393668.52
+2026-02-01,CUST-103 (Luxe Interiors),Circuit Protection,1284.28,112,143839.36
+2026-02-01,CUST-104 (Urban Infra Corp),Modular Switches,488.1,240,117144.0
+2026-02-01,CUST-104 (Urban Infra Corp),Home Automation,9227.11,28,258359.08
+2026-02-01,CUST-104 (Urban Infra Corp),Circuit Protection,1305.54,93,121415.22
+2026-02-01,CUST-105 (Nova Distributors),Modular Switches,482.82,146,70491.72
+2026-02-01,CUST-105 (Nova Distributors),Home Automation,9300.17,35,325505.95
+2026-02-01,CUST-105 (Nova Distributors),Circuit Protection,1306.25,119,155443.75
+2026-03-01,CUST-101 (Apex Builders),Modular Switches,497.04,125,62130.0
+2026-03-01,CUST-101 (Apex Builders),Home Automation,9103.72,44,400563.68
+2026-03-01,CUST-101 (Apex Builders),Circuit Protection,1300.38,84,109231.92
+2026-03-01,CUST-102 (Metro Electricals),Modular Switches,491.1,168,82504.8
+2026-03-01,CUST-102 (Metro Electricals),Home Automation,9301.69,41,381369.29
+2026-03-01,CUST-102 (Metro Electricals),Circuit Protection,1318.47,129,170082.63
+2026-03-01,CUST-103 (Luxe Interiors),Modular Switches,481.83,298,143585.34
+2026-03-01,CUST-103 (Luxe Interiors),Home Automation,9177.78,46,422177.88
+2026-03-01,CUST-103 (Luxe Interiors),Circuit Protection,1328.5,126,167391.0
+2026-03-01,CUST-104 (Urban Infra Corp),Modular Switches,486.12,203,98682.36
+2026-03-01,CUST-104 (Urban Infra Corp),Home Automation,9191.86,40,367674.4
+2026-03-01,CUST-104 (Urban Infra Corp),Circuit Protection,1309.88,103,134917.64
+2026-03-01,CUST-105 (Nova Distributors),Modular Switches,492.49,163,80275.87
+2026-03-01,CUST-105 (Nova Distributors),Home Automation,9235.61,36,332481.96
+2026-03-01,CUST-105 (Nova Distributors),Circuit Protection,1289.85,111,143173.35
+2026-04-01,CUST-101 (Apex Builders),Modular Switches,490.95,151,74133.45
+2026-04-01,CUST-101 (Apex Builders),Home Automation,9336.08,30,280082.4
+2026-04-01,CUST-101 (Apex Builders),Circuit Protection,1296.32,81,105001.92
+2026-04-01,CUST-102 (Metro Electricals),Modular Switches,490.2,277,135785.4
+2026-04-01,CUST-102 (Metro Electricals),Home Automation,9109.76,53,482817.28
+2026-04-01,CUST-102 (Metro Electricals),Circuit Protection,1314.39,145,190586.55
+2026-04-01,CUST-103 (Luxe Interiors),Modular Switches,497.42,272,135298.24
+2026-04-01,CUST-103 (Luxe Interiors),Home Automation,9172.55,45,412764.75
+2026-04-01,CUST-103 (Luxe Interiors),Circuit Protection,1303.73,108,140802.84
+2026-04-01,CUST-104 (Urban Infra Corp),Modular Switches,497.7,206,102526.2
+2026-04-01,CUST-104 (Urban Infra Corp),Home Automation,9360.38,37,346334.06
+2026-04-01,CUST-104 (Urban Infra Corp),Circuit Protection,1297.19,129,167337.51
+2026-04-01,CUST-105 (Nova Distributors),Modular Switches,483.22,277,133851.94
+2026-04-01,CUST-105 (Nova Distributors),Home Automation,9307.11,52,483969.72
+2026-04-01,CUST-105 (Nova Distributors),Circuit Protection,1292.06,101,130498.06
+2026-05-01,CUST-101 (Apex Builders),Modular Switches,497.03,211,104873.33
+2026-05-01,CUST-101 (Apex Builders),Home Automation,9103.04,35,318606.4
+2026-05-01,CUST-101 (Apex Builders),Circuit Protection,1314.81,133,174869.73
+2026-05-01,CUST-102 (Metro Electricals),Modular Switches,488.54,219,106990.26
+2026-05-01,CUST-102 (Metro Electricals),Home Automation,9297.12,28,260319.36
+2026-05-01,CUST-102 (Metro Electricals),Circuit Protection,1290.55,87,112277.85
+2026-05-01,CUST-103 (Luxe Interiors),Modular Switches,488.78,267,130504.26
+2026-05-01,CUST-103 (Luxe Interiors),Home Automation,9330.43,32,298573.76
+2026-05-01,CUST-103 (Luxe Interiors),Circuit Protection,1331.58,123,163784.34
+2026-05-01,CUST-104 (Urban Infra Corp),Modular Switches,482.93,210,101415.3
+2026-05-01,CUST-104 (Urban Infra Corp),Home Automation,9124.12,23,209854.76
+2026-05-01,CUST-104 (Urban Infra Corp),Circuit Protection,1301.04,80,104083.2
+2026-05-01,CUST-105 (Nova Distributors),Modular Switches,490.84,152,74607.68
+2026-05-01,CUST-105 (Nova Distributors),Home Automation,9394.23,18,169096.14
+2026-05-01,CUST-105 (Nova Distributors),Circuit Protection,1315.24,55,72338.2
+2026-06-01,CUST-101 (Apex Builders),Modular Switches,493.55,185,91306.75
+2026-06-01,CUST-101 (Apex Builders),Home Automation,9433.01,32,301856.32
+2026-06-01,CUST-101 (Apex Builders),Circuit Protection,1319.07,120,158288.4
+2026-06-01,CUST-102 (Metro Electricals),Modular Switches,482.58,205,98928.9
+2026-06-01,CUST-102 (Metro Electricals),Home Automation,9154.6,31,283792.6
+2026-06-01,CUST-102 (Metro Electricals),Circuit Protection,1317.12,103,135663.36
+2026-06-01,CUST-103 (Luxe Interiors),Modular Switches,489.61,118,57773.98
+2026-06-01,CUST-103 (Luxe Interiors),Home Automation,9352.1,30,280563.0
+2026-06-01,CUST-103 (Luxe Interiors),Circuit Protection,1322.18,65,85941.7
+2026-06-01,CUST-104 (Urban Infra Corp),Modular Switches,485.72,199,96658.28
+2026-06-01,CUST-104 (Urban Infra Corp),Home Automation,9432.44,37,349000.28
+2026-06-01,CUST-104 (Urban Infra Corp),Circuit Protection,1328.5,150,199275.0
+2026-06-01,CUST-105 (Nova Distributors),Modular Switches,492.72,199,98051.28
+2026-06-01,CUST-105 (Nova Distributors),Home Automation,9125.3,29,264633.7
+2026-06-01,CUST-105 (Nova Distributors),Circuit Protection,1323.65,109,144277.85
+2026-07-01,CUST-101 (Apex Builders),Modular Switches,494.26,218,107748.68
+2026-07-01,CUST-101 (Apex Builders),Home Automation,9124.8,33,301118.4
+2026-07-01,CUST-101 (Apex Builders),Circuit Protection,1328.97,95,126252.15
+2026-07-01,CUST-102 (Metro Electricals),Modular Switches,489.55,217,106232.35
+2026-07-01,CUST-102 (Metro Electricals),Home Automation,9299.2,37,344070.4
+2026-07-01,CUST-102 (Metro Electricals),Circuit Protection,1307.85,108,141247.8
+2026-07-01,CUST-103 (Luxe Interiors),Modular Switches,496.83,275,136628.25
+2026-07-01,CUST-103 (Luxe Interiors),Home Automation,9224.41,44,405874.04
+2026-07-01,CUST-103 (Luxe Interiors),Circuit Protection,1326.14,150,198921.0
+2026-07-01,CUST-104 (Urban Infra Corp),Modular Switches,486.98,260,126614.8
+2026-07-01,CUST-104 (Urban Infra Corp),Home Automation,9122.51,34,310165.34
+2026-07-01,CUST-104 (Urban Infra Corp),Circuit Protection,1317.36,125,164670.0
+2026-07-01,CUST-105 (Nova Distributors),Modular Switches,499.06,228,113785.68
+2026-07-01,CUST-105 (Nova Distributors),Home Automation,9140.06,35,319902.1
+2026-07-01,CUST-105 (Nova Distributors),Circuit Protection,1325.38,104,137839.52
+2026-08-01,CUST-101 (Apex Builders),Modular Switches,495.27,254,125798.58
+2026-08-01,CUST-101 (Apex Builders),Home Automation,9154.45,23,210552.35
+2026-08-01,CUST-101 (Apex Builders),Circuit Protection,1291.03,122,157505.66
+2026-08-01,CUST-102 (Metro Electricals),Modular Switches,482.73,200,96546.0
+2026-08-01,CUST-102 (Metro Electricals),Home Automation,9423.38,35,329818.3
+2026-08-01,CUST-102 (Metro Electricals),Circuit Protection,1304.76,107,139609.32
+2026-08-01,CUST-103 (Luxe Interiors),Modular Switches,483.4,145,70093.0
+2026-08-01,CUST-103 (Luxe Interiors),Home Automation,9312.88,37,344576.56
+2026-08-01,CUST-103 (Luxe Interiors),Circuit Protection,1315.21,89,117053.69
+2026-08-01,CUST-104 (Urban Infra Corp),Modular Switches,482.6,168,81076.8
+2026-08-01,CUST-104 (Urban Infra Corp),Home Automation,9114.78,35,319017.3
+2026-08-01,CUST-104 (Urban Infra Corp),Circuit Protection,1331.75,94,125184.5
+2026-08-01,CUST-105 (Nova Distributors),Modular Switches,485.81,257,124853.17
+2026-08-01,CUST-105 (Nova Distributors),Home Automation,9143.36,42,384021.12
+2026-08-01,CUST-105 (Nova Distributors),Circuit Protection,1288.85,129,166261.65
+2026-09-01,CUST-101 (Apex Builders),Modular Switches,482.62,242,116794.04
+2026-09-01,CUST-101 (Apex Builders),Home Automation,9371.75,39,365498.25
+2026-09-01,CUST-101 (Apex Builders),Circuit Protection,1313.53,144,189148.32
+2026-09-01,CUST-102 (Metro Electricals),Modular Switches,489.17,169,82669.73
+2026-09-01,CUST-102 (Metro Electricals),Home Automation,9139.44,35,319880.4
+2026-09-01,CUST-102 (Metro Electricals),Circuit Protection,1293.34,133,172014.22
+2026-09-01,CUST-103 (Luxe Interiors),Modular Switches,488.95,215,105124.25
+2026-09-01,CUST-103 (Luxe Interiors),Home Automation,9356.56,36,336836.16
+2026-09-01,CUST-103 (Luxe Interiors),Circuit Protection,1284.53,96,123314.88
+2026-09-01,CUST-104 (Urban Infra Corp),Modular Switches,486.18,96,46673.28
+2026-09-01,CUST-104 (Urban Infra Corp),Home Automation,9353.5,26,243191.0
+2026-09-01,CUST-104 (Urban Infra Corp),Circuit Protection,1294.33,70,90603.1
+2026-09-01,CUST-105 (Nova Distributors),Modular Switches,485.84,157,76276.88
+2026-09-01,CUST-105 (Nova Distributors),Home Automation,9132.31,28,255704.68
+2026-09-01,CUST-105 (Nova Distributors),Circuit Protection,1310.3,99,129719.7
+2026-10-01,CUST-101 (Apex Builders),Modular Switches,490.29,204,100019.16
+2026-10-01,CUST-101 (Apex Builders),Home Automation,9146.02,41,374986.82
+2026-10-01,CUST-101 (Apex Builders),Circuit Protection,1306.85,97,126764.45
+2026-10-01,CUST-102 (Metro Electricals),Modular Switches,488.6,305,149023.0
+2026-10-01,CUST-102 (Metro Electricals),Home Automation,9398.31,40,375932.4
+2026-10-01,CUST-102 (Metro Electricals),Circuit Protection,1329.86,119,158253.34
+2026-10-01,CUST-103 (Luxe Interiors),Modular Switches,489.38,341,166878.58
+2026-10-01,CUST-103 (Luxe Interiors),Home Automation,9181.59,48,440716.32
+2026-10-01,CUST-103 (Luxe Interiors),Circuit Protection,1314.59,179,235311.61
+2026-10-01,CUST-104 (Urban Infra Corp),Modular Switches,497.61,348,173168.28
+2026-10-01,CUST-104 (Urban Infra Corp),Home Automation,9117.66,59,537941.94
+2026-10-01,CUST-104 (Urban Infra Corp),Circuit Protection,1308.88,166,217274.08
+2026-10-01,CUST-105 (Nova Distributors),Modular Switches,493.74,242,119485.08
+2026-10-01,CUST-105 (Nova Distributors),Home Automation,9109.17,46,419021.82
+2026-10-01,CUST-105 (Nova Distributors),Circuit Protection,1287.46,134,172519.64
+2026-11-01,CUST-101 (Apex Builders),Modular Switches,481.72,163,78520.36
+2026-11-01,CUST-101 (Apex Builders),Home Automation,9213.9,29,267203.1
+2026-11-01,CUST-101 (Apex Builders),Circuit Protection,1321.18,92,121548.56
+2026-11-01,CUST-102 (Metro Electricals),Modular Switches,483.27,238,115018.26
+2026-11-01,CUST-102 (Metro Electricals),Home Automation,9319.5,32,298224.0
+2026-11-01,CUST-102 (Metro Electricals),Circuit Protection,1285.01,133,170906.33
+2026-11-01,CUST-103 (Luxe Interiors),Modular Switches,498.92,237,118244.04
+2026-11-01,CUST-103 (Luxe Interiors),Home Automation,9307.39,30,279221.7
+2026-11-01,CUST-103 (Luxe Interiors),Circuit Protection,1302.33,105,136744.65
+2026-11-01,CUST-104 (Urban Infra Corp),Modular Switches,495.44,274,135750.56
+2026-11-01,CUST-104 (Urban Infra Corp),Home Automation,9313.93,43,400498.99
+2026-11-01,CUST-104 (Urban Infra Corp),Circuit Protection,1330.49,152,202234.48
+2026-11-01,CUST-105 (Nova Distributors),Modular Switches,486.77,314,152845.78
+2026-11-01,CUST-105 (Nova Distributors),Home Automation,9293.02,54,501823.08
+2026-11-01,CUST-105 (Nova Distributors),Circuit Protection,1319.91,179,236263.89
+2026-12-01,CUST-101 (Apex Builders),Modular Switches,487.59,248,120922.32
+2026-12-01,CUST-101 (Apex Builders),Home Automation,9410.55,32,301137.6
+2026-12-01,CUST-101 (Apex Builders),Circuit Protection,1304.74,92,120036.08
+2026-12-01,CUST-102 (Metro Electricals),Modular Switches,492.53,250,123132.5
+2026-12-01,CUST-102 (Metro Electricals),Home Automation,9396.55,41,385258.55
+2026-12-01,CUST-102 (Metro Electricals),Circuit Protection,1315.0,156,205140.0
+2026-12-01,CUST-103 (Luxe Interiors),Modular Switches,496.74,292,145048.08
+2026-12-01,CUST-103 (Luxe Interiors),Home Automation,9407.44,60,564446.4
+2026-12-01,CUST-103 (Luxe Interiors),Circuit Protection,1306.11,150,195916.5
+2026-12-01,CUST-104 (Urban Infra Corp),Modular Switches,494.61,349,172618.89
+2026-12-01,CUST-104 (Urban Infra Corp),Home Automation,9155.33,62,567630.46
+2026-12-01,CUST-104 (Urban Infra Corp),Circuit Protection,1310.16,179,234518.64
+2026-12-01,CUST-105 (Nova Distributors),Modular Switches,485.34,283,137351.22
+2026-12-01,CUST-105 (Nova Distributors),Home Automation,9266.99,56,518951.44
+2026-12-01,CUST-105 (Nova Distributors),Circuit Protection,1310.03,185,242355.55
