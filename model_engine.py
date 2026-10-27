@@ -5,106 +5,135 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.linear_model import LinearRegression, Ridge
 from sklearn.ensemble import RandomForestRegressor
 from xgboost import XGBRegressor
-from sklearn.metrics import r2_score, mean_squared_error
+from statsmodels.tsa.seasonal import seasonal_decompose
 
-def load_and_preprocess_data(csv_path="client_sales_data.csv"):
+def auto_detect_columns(df):
     """
-    Loads the CSV dataset, extracts date features, and encodes categorical columns.
+    Automatically detects date, target, and feature columns for any random CSV.
     """
-    df = pd.read_csv(csv_path)
+    cols = [c.strip() for c in df.columns]
+    df.columns = cols
     
-    # 1. Date Feature Engineering
-    df['date'] = pd.to_datetime(df['date'])
-    df['year'] = df['date'].dt.year
-    df['month'] = df['date'].dt.month
-    df['quarter'] = df['date'].dt.quarter
-    
-    # 2. Categorical Label Encoding
-    client_encoder = LabelEncoder()
-    category_encoder = LabelEncoder()
-    
-    df['client_encoded'] = client_encoder.fit_transform(df['client_id'])
-    df['category_encoded'] = category_encoder.fit_transform(df['product_category'])
-    
-    # Store encoders for later use if needed
-    encoders = {
-        "client": client_encoder,
-        "category": category_encoder
-    }
-    
-    return df, encoders
+    # Detect Date column
+    date_col = None
+    for col in cols:
+        if any(keyword in col.lower() for keyword in ['date', 'time', 'period', 'year', 'day', 'month']):
+            try:
+                pd.to_datetime(df[col], errors='raise')
+                date_col = col
+                break
+            except Exception:
+                continue
+    if not date_col:
+        # Fallback to first datetime-parseable column
+        for col in cols:
+            try:
+                pd.to_datetime(df[col], errors='raise')
+                date_col = col
+                break
+            except Exception:
+                continue
+    if not date_col:
+        date_col = cols[0] # Fallback default
 
-def run_automl_benchmark(df, target_col='total_revenue'):
+    # Detect Target column (numeric columns like revenue, sales, amount, total, price)
+    numeric_cols = df.select_dtypes(include=[np.number]).columns.tolist()
+    target_col = None
+    for col in numeric_cols:
+        if any(keyword in col.lower() for keyword in ['revenue', 'sales', 'total', 'amount', 'price', 'profit', 'demand']):
+            target_col = col
+            break
+    if not target_col and numeric_cols:
+        target_col = numeric_cols[-1]
+    elif not numeric_cols:
+        raise ValueError("The CSV must contain at least one numeric column for forecasting/analysis.")
+
+    return date_col, target_col
+
+def process_arbitrary_csv(csv_bytes, date_col=None, target_col=None):
     """
-    Benchmarks multiple supervised ML algorithms using 5-Fold Cross-Validation 
-    and automatically selects the best performing model.
+    Cleans exceptions, parses dates, computes rolling stats and time series decomposition.
     """
-    # Define features (X) and target (y)
-    feature_cols = ['year', 'month', 'quarter', 'client_encoded', 'category_encoded', 'unit_price', 'units_sold']
-    if target_col == 'units_sold':
-        feature_cols = [c for c in feature_cols if c != 'units_sold']
-        
+    df = pd.read_csv(io_bytes_to_stream(csv_bytes))
+    df.columns = df.columns.str.strip()
+    
+    if df.empty or len(df) < 5:
+        raise ValueError("Dataset must contain at least 5 rows of data.")
+
+    # Auto-detect columns if not specified
+    detected_date, detected_target = auto_detect_columns(df)
+    date_col = date_col if date_col in df.columns else detected_date
+    target_col = target_col if target_col in df.columns else detected_target
+
+    # Clean missing values & exceptions
+    df[date_col] = pd.to_datetime(df[date_col], errors='coerce')
+    df = df.dropna(subset=[date_col]).sort_values(by=date_col)
+    
+    # Convert numeric columns, fill NaNs with median
+    numeric_cols = df.select_dtypes(include=[np.number]).columns.tolist()
+    for col in numeric_cols:
+        df[col] = pd.to_numeric(df[col], errors='coerce').fillna(df[col].median())
+
+    # Fill categorical missing values
+    cat_cols = df.select_dtypes(include=['object', 'category']).columns.tolist()
+    for col in cat_cols:
+        df[col] = df[col].fillna("Unknown").astype(str)
+
+    # Time Series Feature Engineering & Rolling Statistics
+    df['year'] = df[date_col].dt.year
+    df['month'] = df[date_col].dt.month
+    df['day_of_week'] = df[date_col].dt.dayofweek
+    df['rolling_mean_3'] = df[target_col].rolling(window=3, min_periods=1).mean()
+    df['rolling_std_3'] = df[target_col].rolling(window=3, min_periods=1).std().fillna(0)
+
+    # Time Series Decomposition (Trend, Seasonal) using statsmodels if enough data
+    decomposition_data = {}
+    try:
+        ts_series = df.set_index(date_col)[target_col].resample('D').mean().interpolate()
+        if len(ts_series) >= 14:
+            period = min(7, len(ts_series) // 2)
+            decomposition = seasonal_decompose(ts_series, model='additive', period=period)
+            decomposition_data = {
+                "trend": decomposition.trend.dropna().tolist(),
+                "seasonal": decomposition.seasonal.dropna().tolist(),
+                "dates": [str(d.date()) for d in decomposition.trend.dropna().index]
+            }
+    except Exception:
+        pass
+
+    return df, date_col, target_col, decomposition_data
+
+def io_bytes_to_stream(csv_bytes):
+    import io
+    return io.BytesIO(csv_bytes)
+
+def run_regression_benchmark(df, target_col, feature_cols):
+    """
+    Supervised ML Regression Tournament (Random Forest, XGBoost, Ridge, Linear).
+    """
     X = df[feature_cols]
     y = df[target_col]
     
-    # Define candidate supervised models
     models = {
         "Linear Regression": LinearRegression(),
         "Ridge Regression": Ridge(alpha=1.0),
-        "Random Forest Regressor": RandomForestRegressor(n_estimators=100, random_state=42),
-        "XGBoost Regressor": XGBRegressor(n_estimators=100, learning_rate=0.1, random_state=42, verbosity=0)
+        "Random Forest": RandomForestRegressor(n_estimators=100, random_state=42),
+        "XGBoost": XGBRegressor(n_estimators=100, learning_rate=0.1, random_state=42, verbosity=0)
     }
     
-    cv = KFold(n_splits=5, shuffle=True, random_state=42)
-    benchmark_results = {}
-    trained_models = {}
+    cv = KFold(n_splits=min(5, len(df)), shuffle=True, random_state=42)
+    results = {}
     
     for name, model in models.items():
-        # Evaluate using R-squared cross-validation scores
-        cv_scores = cross_val_score(model, X, y, cv=cv, scoring='r2')
-        mean_r2 = float(np.mean(cv_scores))
-        std_r2 = float(np.std(cv_scores))
-        
-        benchmark_results[name] = {
-            "mean_r2": round(mean_r2, 4),
-            "std_r2": round(std_r2, 4)
-        }
-        
-        # Fit model on full dataset for future predictions
-        model.fit(X, y)
-        trained_models[name] = model
-        
-    # Find the best model based on highest mean R^2 score
-    best_algorithm = max(benchmark_results, key=lambda k: benchmark_results[k]["mean_r2"])
-    
-    return {
-        "best_algorithm": best_algorithm,
-        "benchmark_results": benchmark_results,
-        "trained_models": trained_models,
-        "feature_cols": feature_cols
-    }
-
-def predict_future_client_revenue(model, encoders, client_id, category, unit_price, units_sold, target_year, target_month):
-    """
-    Generates a prediction for a specific client and product category in a future month.
-    """
-    try:
-        client_enc = encoders['client'].transform([client_id])[0]
-        category_enc = encoders['category'].transform([category])[0]
-    except ValueError:
-        return "Error: Unknown client or category provided."
-    
-    target_quarter = (target_month - 1) // 3 + 1
-    
-    input_data = pd.DataFrame([{
-        'year': target_year,
-        'month': target_month,
-        'quarter': target_quarter,
-        'client_encoded': client_enc,
-        'category_encoded': category_enc,
-        'unit_price': unit_price,
-        'units_sold': units_sold
-    }])
-    
-    prediction = model.predict(input_data)[0]
-    return max(0.0, float(prediction))
+        try:
+            scores = cross_val_score(model, X, y, cv=cv, scoring='r2')
+            results[name] = {
+                "mean_r2": round(float(np.mean(scores)), 4),
+                "std_r2": round(float(np.std(scores)), 4)
+            }
+            model.fit(X, y)
+        except Exception:
+            results[name] = {"mean_r2": 0.0, "std_r2": 0.0}
+            
+    best_model_name = max(results, key=lambda k: results[k]["mean_r2"])
+    return best_model_name, results
