@@ -1,8 +1,6 @@
-cat > requirements.txt << 'EOF'
 fastapi
 uvicorn
 python-multipart
 pandas
 numpy
 scikit-learn
-EOF
